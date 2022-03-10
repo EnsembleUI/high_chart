@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -146,9 +148,11 @@ class _HighChartsState extends State<HighCharts> {
               if (await canLaunch(request.url)) {
                 launch(request.url);
               }
-
+              if ( Platform.isIOS ) {
+                return NavigationDecision.navigate;
+              }
               return NavigationDecision.prevent;
-            },
+            }
           ),
         ],
       ),
