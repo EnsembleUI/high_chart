@@ -1,3 +1,4 @@
+(This repo is deprecated. Please use the monorepo [Ensemble](https://github.com/EnsembleUI/ensemble) instead).
 <p align="center">
 <img src="https://i.ibb.co/GnKh9tp/kisspng-highsoft-highcharts-data-visualization-technology-crisp-5b0bc0d5cc2c53-729988461527496917836.jpg" />
 </p>
